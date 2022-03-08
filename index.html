@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Google</title>
-    <link rel="icon" href="images/favicon.ico">
-    <!-- Make sure to link in a stylesheet here-->
-  </head>
-  <body>
-      <!-- The header of the webpage -->
-      <div class="top-container">
-        <p class="about">About</p>
-        <p class="store">Store</p>
-        <p class="gmail">Gmail</p>
-        <p class="images">Images</p>
-        <img src="images/nine-dots.png" alt="nine-dots" class="nine-dots">
-        <!--Modify the name of your headshot below-->
-        <img src="images/headshot.jpeg" alt="pfp" class="pfp">
-      </div>
 
-      <!-- The logo, search bar, and buttons -->
-      <div class="middle-container">
-        <img src="images/logo.png" alt="logo" class="logo">
-        <div class="textbox">
-          <input type="text", class="bar">
-          <img src="images/search-icon.png" alt="search-icon" class="search">
-          <img src="images/voice-icon.jpeg" alt="voice-icon" class="voice">
-        </div>
-        <div class = "buttons">
-          <button type="button" class="search-button">Google Search</button>
-          <button type="button" class="lucky-button">I'm Feeling Lucky</button>
-        </div>
-      </div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Google</title>
+  <link rel="icon" href="images/google-icon.jpg">
+  <!-- Make sure to link in a stylesheet here-->
+  <link rel="stylesheet" href="google-style.css">
+</head>
+
+<body>
+  <!-- The header of the webpage -->
+  <div class="top-container">
+    <a class="about left top-link text-link" href="#">About</a>
+    <a class="store left top-link text-link" href="#">Store</a>
+    <a href="#"><img src="images/headshot.jpg" alt="pfp" class="pfp top-img right top-link image-link"></a>
+    <a href="#"><img src="images/nine-dots.png" alt="nine-dots" class="nine-dots top-img right top-link image-link"></a>
+    <!--Modify the name of your headshot below-->
+    <a class="gmail right top-link text-link" href="#">Gmail</a>
+    <a class="images right top-link text-link" href="#">Images</a>
+  </div>
+
+  <!-- The logo, search bar, and buttons -->
+  <div class="middle-container">
+    <img src="images/logo.png" alt="logo" class="logo">
+    <div class="textbox">
+      <input type="text" class="bar">
+      <img src="images/search-icon.png" alt="search-icon" class="search input-image">
+      <a href="#"><img src="images/voice-icon.jpeg" alt="voice-icon" class="voice input-image"></a>
+    </div>
+    <div class="buttons">
+      <button type="button" class="search-button button">Google Search</button>
+      <button type="button" class="lucky-button button">I'm Feeling Lucky</button>
+    </div>
+  </div>
+</body>
+
 </html>
